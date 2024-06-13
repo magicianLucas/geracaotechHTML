@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        table, th, td, tr{
+        table, th, td, tr, form{
             border: 1px solid black;
         }
     </style>
@@ -61,6 +61,7 @@
         <tr>
             <td>Info linha3 Col1</td>
             <td>Info linha3 Col2</td>
+            <td>Info linha3 Colu3</td>
         </tr>
         
         <tr>
@@ -68,7 +69,7 @@
             <td>Info linha3 col3</td>
         </tr>
         <tr>
-            <td>Info Linha 4/5 col1</td>
+            <td rowspan="2">Info Linha 4/5 col1</td>
             <td>Info Linha 4/ col2</td>
             <td>Info Linha 4 col3</td>
         </tr>
@@ -77,8 +78,66 @@
             <td>Info Linha 5 col3</td>
         </tr>
 
-
-
     </table>
+
+    <h2> Apresentação Formulários</h2>
+    <form action="#">
+        <label for="">
+            Rótulo da informação
+        </label>
+        <br>
+        <input type="text" id="meuID">
+        <br>
+
+        <label for="numero">
+            Rótulo para número
+
+        </label>
+        <br>
+        <input type="number" id="numero" value="1000">
+        <br>
+        <label for="email">
+            Rótulo  para email</label>
+        <br>
+        <input type="email" name="" id="email" placeholder="exemplo@gmail.com">
+        <br>
+        <label for="senha">Rótulo para senha</label>
+        <br>
+        <input type="password" name="" id="senha">
+        <br>
+        <label for="">Exemplo Checkbox</label>
+        <br>
+        <input type="checkbox" name="selecao" id="f" value="Lojafeminino">
+        <label for="f">Departamento Feminino</label>
+        <br>
+        <input type="checkbox", name="selecao" id="m" value="Lojamasculino">
+        <label for="m">Departamento Masculino</label>
+        <br><br>
+
+        <label for="">Exemplo de seleção única</label>
+        <br>
+        <input type="radio" name="selecaoUnica" id="um" value="1">
+        <label for="um">Primeira opção</label>
+        <br>
+
+        <input type="radio" name="selecaoUnica" id="um" value="dois">
+        <label for="dois">Segunda opção</label>
+        <br><br>
+        <label for="testeSelect">Seleção por lista</label>
+        <br>
+        <select name="testeSelect" id="testeSelect">
+            <option value="1" disabled>um</option>
+            <option value="2">dois</option>
+            <option value="3">três</option>
+        </select>
+        <br><br>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Xingue aqui"></textarea>
+
+
+
+
+
+
+    </form>
 </body>
 </html>
