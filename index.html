@@ -4,81 +4,169 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        table, th, td, tr, form{
-            border: 1px solid black;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Exemplos de utilização das tags</h1>
+    
 
-    <!--titulos-->
-    <h1>Aula 02</h1>
+    <header>
+        <img src="https://geracaotech.iel-ce.org.br/images/logo-geracao-tech.png" alt="logo programa">
+        <h1>Geração Tech - Desenvolvimento Front End</h1>
+        <nav>
+            
+            <a href="#listas"> Tags de Listas</a>
+            <a href="#tabelas"> Tags de Tabelas</a>
+            <a href="#formulario">Tags de Formulários</a>
+            <a href="#divisoes">Tags de divisões</a>
+        </nav>
+    </header>
+    <main>
+      <section id="listas">
+            <h1>Exemplos de utilização das tags</h1>
+            <form action="#"></form>
 
-    <h2>Apresentação das Listas</h2>
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, ratione!</p>
-
-    <h3>Listas Oredenadas</h3>
-    <ol type="A">
-        <li>coisa</li>
-        <li>coisa</li>
-  
-    </ol>
-    <h3>Listas não ordenadas</h3>
-    <ul>
-      <li>oi</li>
-      <li>ola</li>
-      <li>tchau</li>
-    </ul>
-    <h3>Continuação das listas ordenadas</h3>
-    <ol type="A" start="5">
-        <li>outra coisa</li>
-        <li>outra coisa </li>
-        <li>outra coisa</li>
-    </ol>
-
-    <h2>Apresentação Tabelas</h2>
-    <table>
-        <!--Título de Coluna-->
-            <td>Coluna1</td>
-            <td>Coluna2</td>
-            <td>Coluna3</td>
-        <!--Informações da tabela-->
-        <tr>
-            <td>Info linha1 Col1</td>
-            <td>Info linha1 Col2</td>
-            <td>Info linha1 Colu3</td>
-        </tr>
-
-        <tr>
-            <td>Info linha2 Col1</td>
-            <td>Info linha2 Col2</td>
-            <td>Info linha2 Colu3</td>
-        </tr>
-
-        <tr>
-            <td>Info linha3 Col1</td>
-            <td>Info linha3 Col2</td>
-            <td>Info linha3 Colu3</td>
-        </tr>
+            <!--titulos-->
+            <h1>Aula 02</h1>
         
-        <tr>
-            <td colspan="2">Info linha3 col1/2</td>
-            <td>Info linha3 col3</td>
-        </tr>
-        <tr>
-            <td rowspan="2">Info Linha 4/5 col1</td>
-            <td>Info Linha 4/ col2</td>
-            <td>Info Linha 4 col3</td>
-        </tr>
-        <tr>
-            <td>Info Linha 5 col2</td>
-            <td>Info Linha 5 col3</td>
-        </tr>
+            <h2>Apresentação das Listas</h2>
+        
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, ratione!</p>
+        
+            <h3>Listas Oredenadas</h3>
+            <ol type="A">
+                <li>coisa</li>
+                <li>coisa</li>
+        
+            </ol>
+            <h3>Listas não ordenadas</h3>
+            <ul>
+            <li>oi</li>
+            <li>ola</li>
+            <li>tchau</li>
+            </ul>
+            <h3>Continuação das listas ordenadas</h3>
+            <ol type="A" start="5">
+                <li>outra coisa</li>
+                <li>outra coisa </li>
+                <li>outra coisa</li>
+            </ol>
 
-    </table>
-    </form>
+        </section>
+
+        <section id="tabelas">
+                <h2>Apresentação Tabelas</h2>
+                <table>
+                    <!--Título de Coluna-->
+                        <td>Coluna1</td>
+                        <td>Coluna2</td>
+                        <td>Coluna3</td>
+                    <!--Informações da tabela-->
+                    <tr>
+                        <td>Info linha1 Col1</td>
+                        <td>Info linha1 Col2</td>
+                        <td>Info linha1 Colu3</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Info linha2 Col1</td>
+                        <td>Info linha2 Col2</td>
+                        <td>Info linha2 Colu3</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Info linha3 Col1</td>
+                        <td>Info linha3 Col2</td>
+                        <td>Info linha3 Colu3</td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="2">Info linha3 col1/2</td>
+                        <td>Info linha3 col3</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Info Linha 4/5 col1</td>
+                        <td>Info Linha 4/ col2</td>
+                        <td>Info Linha 4 col3</td>
+                    </tr>
+                    <tr>
+                        <td>Info Linha 5 col2</td>
+                        <td>Info Linha 5 col3</td>
+                    </tr>
+                </table>
+        </section>
+
+        <section id="formulario">
+            <h2>Formulário de cadastro para pessoa desenvolvedora</h2>
+            <label for="">Nome:</label>
+            <br>
+            <input type="text" id="nome">
+            <br>
+            <label for="">Email:</label>
+            <br>
+            <input type="email" id="Email">
+            <br>
+            <label for="">Idade:</label>
+            <br>
+            <input type="number", id="Idade">
+            <br>
+            <label for="">Telefone:</label>
+            <br>
+            <input type="number" id="Telefone">
+            <br>
+
+            <h2>Escolha uma das unidades</h2>
+            <input type="radio" name="selecaoUnica" id="Fortaleza" value="1">
+            <label for="Fortaleza">Fortaleza</label>
+            <br>
+            <input type="radio" name="selecaoUnica" id="Recife" value="2">
+            <label for="Recife">Recife</label>
+            <br>
+            <input type="radio" name="selecaoUnica" id="Salvador" value="3">
+            <label for="Salvador">Salvador</label>
+            <br>
+            <h2>Selecione um turno</h2>
+            <select name="Select" id="Select">
+                <option value="1" >Manhã</option>
+                <option value="2">Tarde</option>
+                <option value="3">Noite</option>
+            </select>
+            <h2>Selecione sua linguagem de trabalho:</h2>
+            <input type="checkbox" name="selecao" id="C" value="C">
+                <label for="C">C++</label>
+                <br>
+                <input type="checkbox" name="selecao" id="Java" value="Java">
+                <label for="Java">Java</label>
+                <br>
+                <input type="checkbox" name="selecao" id="phyton" value="phyton">
+                <label for="phyton">Phyton</label>
+                <br>
+                <input type="checkbox" name="selecao" id="node" value="node">
+                <label for="node">Node.Js</label>
+                <br>
+                <input type="checkbox" name="selecao" id="php" value="Php">
+                <label for="php">PHP</label>
+                <br>
+                <h2>Fale um pouco sobre você</h2>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Fale um pouco sobre você."></textarea>
+
+        </section>
+
+        <section id="divisoes">
+            <div class="div1">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, doloremque.</h2>
+            </div>
+            <div class="div2">
+                <h2>2</h2>
+            </div>
+            <div class="div3">
+                <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem unde pariatur minima ea! Mollitia ab nam, blanditiis iusto enim debitis eaque excepturi, alias ipsa, consequuntur doloribus! Quisquam facere voluptatibus magni natus similique in modi at! Voluptas perferendis, aperiam repudiandae quae aut sit ipsum. At perspiciatis iure natus deleniti, ullam numquam. Provident velit cum temporibus praesentium deserunt nesciunt dolore, amet odio fugit soluta sapiente non, possimus animi libero tenetur! Quas inventore labore quod delectus hic minima beatae tenetur libero corporis blanditiis. Quos perferendis alias veritatis delectus. Consequatur, saepe et, minus iure perspiciatis aliquid accusantium, nisi quisquam necessitatibus doloribus debitis velit atque.</h2>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
 </html>
