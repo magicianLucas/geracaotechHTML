@@ -36,8 +36,10 @@ nav a{
 }
 header{
     border: 1px solid rebeccapurple;
+    border-left: solid 10px red;
+    border-radius: 25px;
     background-color: lightblue;
     margin: 10px 25px 0px 30px;
-    padding: 10px;
+    padding: 10px 20px;
     
 }
